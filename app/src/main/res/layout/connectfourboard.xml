@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+    android:weightSum="1">
+    >
+
+    <TableLayout
+        android:id="@+id/gameTable_2d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_weight="0.00" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/c1r1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c1r2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c1r3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c1r4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c1r5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c1r6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c1r7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c2r1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c2r2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c2r3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c2r4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c2r5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c2r6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c2r7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c3r1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c3r2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c3r3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c3r4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c3r5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c3r6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c3r7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c4r1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c4r2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c4r3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c4r4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c4r5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c4r6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c4r7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c5r1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c5r2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c5r3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c5r4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c5r5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c5r6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c5r7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/c6r1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c6r2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c6r3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c6r4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c6r5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c6r6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/c6r7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle"
+            android:tint="#DDDDDD" />
+    </TableRow>
+
+
+</LinearLayout>
